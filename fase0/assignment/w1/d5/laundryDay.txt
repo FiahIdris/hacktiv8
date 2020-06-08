@@ -1,0 +1,13 @@
+ALGORITHM Laundry Day:
+1. Tentukan jumlah pakaian sebanyak 20
+2. Tentukan perulangn memasukkan baju ke laundry sebanyak jumlah pakaian
+3. Masukkan pakaian satu persatu
+
+PSEUDOCODE Laundry Day:
+SET pakaian to 20
+SET count to 20
+FOR each pakaian
+    INCREAMENT count 	
+ENDFOR
+
+

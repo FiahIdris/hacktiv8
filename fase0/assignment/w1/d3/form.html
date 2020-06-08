@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="formHTML center">Fiil the form below to register</h1>
+    <form class="center" action="success.html" method="POST">
+        <div class=name>
+            <label for="fName">First Name</label><br>
+            <input type="text" name="firstName" id="fName" required><br>
+            <label for="lName">Last Name</label><br>
+            <input type="text" name="lastName" id="fName" required><br>
+        </div><br>
+        <div class="genderInfo">
+            <span>Gender</span><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br>
+        </div><br>
+        <div class="pdobInfo">
+            <label for="dob">Place of Birth</label>
+            <input type="text" list="countries" name="country" id="pob" required>
+            <datalist id="countries">
+                <option value="Indonesia"></option>
+                <option value="Malaysia"></option>
+                <option value="Thailand"></option>
+                <option value="Vietnamese"></option>
+                <option value="Australia"></option>
+                <option value="Chinese"></option>
+            </datalist><br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dateOfBirth" id="dob" required>
+        </div><br>
+        <div class="cAddress">
+            <label for="currentAddress">What is your current Address?</label>
+            <input type="text" name="address" id="cAddress" required>
+        </div><br>
+        <div>
+            <label for="bio">Your Bio Here:</label><br>
+            <textarea name="theirBio" id="bio" cols="30" rows="10" maxlength="300" minlength="50"></textarea>
+        </div><br>
+        <div>
+            <input id="btn" type="submit" value=Submit>
+        </div>
+
+    </form>
+</body>
+<footer>
+    <img src="img/facebook.png" alt="im/fiah.png">
+    <img src="img/instagram.png" alt="img/fiah.png">
+    <img src="img/twitter.png" alt="img/fiah.png">
+    <p>copy right @fiah_learning 2020</p>
+</footer>
+
+</html>

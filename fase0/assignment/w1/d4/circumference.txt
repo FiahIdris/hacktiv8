@@ -1,0 +1,14 @@
+
+ALGORITHM:
+
+1.Masukkan nilai jari-jari lingkaran
+2.Tentukan nilai pi sebagai 3.14
+3.Hitung keliling lingkaran dengan cara mengalikan 2 dengan nilai pi dikali nilai jari-jari lingkaran
+4.Tampilkan keliling lingkaran
+
+PSEUDOCODE:
+
+SET 'jari-jari' lingkaran to any number
+SET 'pi' to 3.14
+COMPUTE 'keliling lingkaran' as 2 times 'pi' times 'jari-jari lingkaran'
+SHOW 'keliling lingkaran'

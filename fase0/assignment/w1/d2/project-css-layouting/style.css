@@ -1,0 +1,66 @@
+body {
+    background-image: url(img/sample-pattern.png);  
+    margin: 0 ;  
+    font-family: 'Slabo 27px';
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    background-color:white;
+    height: 60px;
+   
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+li {
+    color: #4da6ff;
+    width: 70px;
+    display: inline-block;
+    position: relative;
+    left:1100px;
+    bottom:40px;   
+}
+
+h1 {
+    display: none;
+}
+
+div {
+    width:800px;
+    margin: 1px auto 70px;
+}
+
+article {
+    background-color:white ;
+    display: inline-block;
+    margin: 1px;
+    padding: 15px 30px;
+}
+
+h3 {
+    color: #4da6ff;
+    width: 100px;
+}
+
+#article-list a {
+    text-decoration: none;
+    cursor: auto;
+}
+
+footer {
+    color: white;
+    background-color: hsl(0, 6%, 20%);
+    height: 80px;
+}
+h5 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 30px;
+ 
+}

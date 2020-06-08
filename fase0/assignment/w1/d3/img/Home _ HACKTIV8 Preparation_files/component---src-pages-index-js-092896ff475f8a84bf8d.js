@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{RXBc:function(e,a,t){"use strict";t.r(a),t.d(a,"pageQuery",(function(){return u}));var n=t("q1tI"),r=t.n(n),c=t("Bl7J"),l=t("vrFN");a.default=function(e){var a=e.data.markdownRemark.html;return r.a.createElement(c.a,null,r.a.createElement(l.a,{title:"Home",keywords:["Hacktiv8","Fullstack Javascript","React"]}),r.a.createElement("div",{dangerouslySetInnerHTML:{__html:a}}))};var u="997976791"}}]);
+//# sourceMappingURL=component---src-pages-index-js-092896ff475f8a84bf8d.js.map

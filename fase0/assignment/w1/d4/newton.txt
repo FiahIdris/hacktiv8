@@ -1,0 +1,17 @@
+
+ALGORITHM:
+
+1. Tentukan massa mobil dengan nilai 600 kg
+2. Tentukan percepatan dengan nilai 2 m/s2
+3. Hitung hasil resultan gaya dengan cara massa mobil dikali percepatan
+4. Tampilkan nilai resultan gaya
+
+PSEUDOCODE:
+
+SET 'massa' to 600
+SET 'percepatan' to 2
+COMPUTE 'resultan gaya' as 'massa' times 'percepatan'
+DISPLAY resultant gaya
+
+
+ 
